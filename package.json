@@ -1,0 +1,11 @@
+{
+	"name": "firefly-publisher",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"build": "mkdir -p dist && cp index.html dist/"
+	},
+	"engines": {
+		"node": ">=20"
+	}
+}
