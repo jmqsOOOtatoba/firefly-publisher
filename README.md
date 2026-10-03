@@ -4,6 +4,12 @@
 
 > **English summary:** A self-hosted publishing console for static blogs. Static frontend + 5 Vercel serverless functions, passphrase login, write / edit / delete / preview from any browser, commits back to your GitHub repo to trigger your existing build. Defaults follow the Firefly blog conventions; every path and filename template is overridable via environment variables. Quick start: create a fine-grained PAT (Contents: read/write) → deploy this repo to Vercel → set `GITHUB_REPO` / `PUBLISH_TOKEN` / `GITHUB_TOKEN` → open your URL and log in. Full steps and the five real-world deployment pitfalls are documented below (Chinese).
 
+## 界面预览
+
+| 发布 | 管理 |
+|---|---|
+| <img src="https://tu.mstzuomu.space/file/文章/1791010347225_发布台示例.png" alt="发布视图：类型选择、标题、正文与可选字段" width="360" /> | <img src="https://tu.mstzuomu.space/file/文章/1791010343098_发布台示例2.png" alt="管理视图：内容列表分组与元数据" width="600" /> |
+
 ## 特性
 
 - **登录门**：口令存环境变量，每次打开发布台都要登录（sessionStorage，关浏览器失效）
