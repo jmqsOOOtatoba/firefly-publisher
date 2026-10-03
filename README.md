@@ -8,7 +8,7 @@
 
 | 发布 | 管理 |
 |---|---|
-| <img src="https://tu.mstzuomu.space/file/文章/1791010347225_发布台示例.png" alt="发布视图：类型选择、标题、正文与可选字段" width="360" /> | <img src="https://tu.mstzuomu.space/file/文章/1791010343098_发布台示例2.png" alt="管理视图：内容列表分组与元数据" width="600" /> |
+| <img src="./docs/assets/preview-publish.png" alt="发布视图：类型选择、标题、正文与可选字段" width="360" /> | <img src="./docs/assets/preview-manage.png" alt="管理视图：内容列表分组与元数据" width="600" /> |
 
 ## 特性
 
